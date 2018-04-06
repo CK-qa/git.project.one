@@ -1,10 +1,15 @@
 public class ClassA {
 
-    private static String foo(String s) {
-        return s;
+    public void foo() {
+
     }
 
+    private static int bar(int i, int b) {
+        return i * b;
+    }
+
+
     public static void main(String[] args) {
-        System.out.println(foo("Test"));
+        System.out.print(bar(4, 3));
     }
 }
